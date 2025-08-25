@@ -3,112 +3,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <section className="pt-10 pb-20 bg-[url('/bg.png')] bg-cover bg-center min-h-screen">
-
-     <div className="bg-bla">
-      <div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
-        </div><div className="max-w-7xl mx-auto p-6">
-        <h1 className="text-4xl font-bold text-orange-800 mb-4">Welcome to Tek Spicy!</h1>
-        <p className="text-lg text-orange-600">
-          Discover delicious and spicy recipes to tantalize your taste buds.
-        </p>
+      <section className="pt-10 pb-20 bg-cover bg-center min-h-screen">
+        <div className="intro bg-[url('/bg.png')] bg-cover bg-center min-h-screen">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight flex flex-col items-center text-center px-4 pt-20 gap-1">
+            <span className="bg-gradient-to-r from-[#fd4d19] to-[#e01425] bg-clip-text text-transparent font-bold mb-4 pb-1">
+              Spicing Up
+            </span>
+            <span className="text-foreground">Your Digital Presence</span>
+          </h1>
         </div>
-     </div>
-    </section>
+      </section>
     </>
   );
 }

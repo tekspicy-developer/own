@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <nav className='w-full bg-background/80 fixed z-50'>
-                <div className='navbar flex justify-between items-center mx-auto w-full bg-[rgba(0,0,0,0.3)] backdrop-blur-md backdrop-saturate-150 shadow px-6 lg:px-40 boreder-b-5'>
+                <div className='navbar flex justify-between items-center mx-auto w-full bg-[rgba(0,0,0,0.68)] backdrop-blur-md backdrop-saturate-150 shadow px-6 lg:px-40 boreder-b-5'>
                     <div className="logo flex items-center">
                         <Image
                             width={60}
@@ -69,7 +69,7 @@ const Navbar = () => {
                             </ul>
                             <Link
                                 href="#contact"
-                                className="font-medium mt-8 mx-8 px-2.5 py-1.5 rounded-[10px] cursor-pointer bg-gradient-to-r from-[#fd4d19] to-[#e01425] hover:bg-gradient-to-br text-center"
+                                className="font-medium mt-8 mx-8 px-2.5 py-1.5 rounded-[10px] cursor-pointer bg-[linear-gradient(135deg,hsl(15,100%,55%)_0%,hsl(5,85%,50%)_50%,hsl(350,90%,45%)_100%)] hover:bg-gradient-to-br text-center"
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Get Started

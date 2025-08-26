@@ -8,13 +8,13 @@ const Contact = () => {
                     <div className="text-center mb-16">
 
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-                            <span className="text-foreground ">Let's Create Something </span>
+                            <span className="text-foreground ">Let&apos;s Create Something </span>
                             <span className="bg-gradient-to-r from-[#fd4d19]  to-[#e01425] bg-clip-text text-transparent">
                                 Spicy Together
                             </span>
                         </h2>
                         <p className="text-xl text-[#abb1ba] text-muted-foreground max-w-3xl mx-auto">
-                            Ready to transform your digital presence? We'd love to hear about your project and discuss how we can help bring your vision to life.
+                            Ready to transform your digital presence? We&apos;d love to hear about your project and discuss how we can help bring your vision to life.
                         </p>
                     </div>
 

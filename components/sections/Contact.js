@@ -8,6 +8,8 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
 
+        e.preventDefault();
+
         toast.custom((t) => (
             <div
                 className={`${t.visible ? 'animate-enter-right' : 'animate-leave-right'

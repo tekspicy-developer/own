@@ -230,7 +230,7 @@ const Services = () => {
                         </h3>
 
                         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto text-c">
-                            Let's discuss your project and create something amazing together. Get a free consultation and project estimate.
+                            Let&apos;s discuss your project and create something amazing together. Get a free consultation and project estimate.
                         </p>
 
                         <button

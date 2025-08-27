@@ -7,7 +7,6 @@ import { CheckCircle } from 'lucide-react';
 const Contact = () => {
 
     const handleSubmit = async (e) => {
-        
 
         toast.custom((t) => (
             <div
@@ -20,7 +19,7 @@ const Contact = () => {
                         Message sent successfully!
                     </span>
                     <span className="text-xs sm:text-sm text-muted">
-                        We'll get back to you within 24 hours.
+                        We&apos;ll get back to you within 24 hours.
                     </span>
                 </div>
             </div>

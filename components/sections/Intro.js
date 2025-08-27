@@ -5,7 +5,7 @@ export default function Intro() {
       <section className="relative bg-[url('/bg.png')] bg-cover bg-center min-h-screen">
         <div className="absolute inset-0 bg-[rgba(0,0,0,0.58)] backdrop-blur-xs backdrop-saturate-150 shadow"></div>
         <div className="relative">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight flex flex-col items-center text-center px-4 pt-30">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold halant-bold tracking-tight flex flex-col items-center text-center px-4 pt-30">
             <span className="bg-[linear-gradient(135deg,hsl(15,100%,55%)_0%,hsl(5,85%,50%)_50%,hsl(350,90%,45%)_100%)] bg-clip-text text-transparent font-bold mb-4 pb-1">
               Spicing Up
             </span>
@@ -17,7 +17,7 @@ export default function Intro() {
             <button
               className="inline-flex items-center justify-center gap-2 px-4 py-2 text-lg font-medium 
              rounded-[10px] bg-[linear-gradient(135deg,hsl(15,100%,55%)_0%,hsl(5,85%,50%)_50%,hsl(350,90%,45%)_100%)] text-white 
-             hover:shadow-glow transition duration-300 group cursor-pointer"
+             hover:shadow-[0_0_30px_hsl(15_100%_55%_/_0.3)] transition duration-300 group cursor-pointer"
             >
               Start Your Project
               <svg

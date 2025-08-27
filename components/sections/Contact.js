@@ -1,8 +1,58 @@
+"use client"
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
+import { CheckCircle } from 'lucide-react';
 
 const Contact = () => {
+
+    const handleSubmit = async (e) => {
+        
+
+        toast.custom((t) => (
+            <div
+                className={`${t.visible ? 'animate-enter-right' : 'animate-leave-right'
+                    } flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 bg-[#0e0f13] border border-[#fd4d19] text-white px-4 py-3 rounded-lg shadow-lg w-[90vw] sm:w-auto max-w-sm`}
+            >
+                <CheckCircle size={24} color="#fd4d19" className="flex-shrink-0" />
+                <div className="flex flex-col text-left">
+                    <span className="font-semibold text-sm sm:text-base">
+                        Message sent successfully!
+                    </span>
+                    <span className="text-xs sm:text-sm text-muted">
+                        We'll get back to you within 24 hours.
+                    </span>
+                </div>
+            </div>
+        ));
+
+
+    };
     return (
         <>
+            <Toaster
+                position="bottom-right"
+                toastOptions={{
+                    duration: 2000,
+                    style: {
+                        background: '#0e0f13',
+                        color: '#ffffff',
+                        border: '1px solid #fd4d19',
+                        padding: '16px',
+                        borderRadius: '8px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'flex-start',
+                        gap: '4px',
+                        fontSize: '14px',
+                    },
+                    iconTheme: {
+                        primary: '#fd4d19',
+                        secondary: '#ffffff',
+                    },
+                }}
+            />
+
             <section id="contact" className="py-24 bg-[#13161b]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
@@ -48,13 +98,13 @@ const Contact = () => {
                                     </h3>
                                 </div>
                                 <div className="p-6 pt-0">
-                                    <form className="space-y-6">
+                                    <form className="space-y-6" onSubmit={handleSubmit}>
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                             <div>
                                                 <label className="block text-sm font-medium text-foreground mb-2">Full Name *</label>
                                                 <input
                                                     className="flex h-10 w-full rounded-md px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-0 focus:border-transparent focus-visible:ring-0 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-[#0e0f13] border border-[#22252c] focus:shadow-[0_0_0_2px_#fd4d19,0_0_0_4px_#e01425]"
-                                                    name="name"
+                                                    name="fullName"
                                                     placeholder="John Doe"
                                                     required
                                                 />
@@ -63,7 +113,7 @@ const Contact = () => {
                                                 <label className="block text-sm font-medium text-foreground mb-2">Email Address *</label>
                                                 <input
                                                     className="flex h-10 w-full rounded-md px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-0 focus:border-transparent focus-visible:ring-0 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-[#0e0f13] border border-[#22252c] focus:shadow-[0_0_0_2px_#fd4d19,0_0_0_4px_#e01425]"
-                                                    name="name"
+                                                    name="email"
                                                     placeholder="John Doe"
                                                     required
                                                 />
@@ -74,7 +124,7 @@ const Contact = () => {
                                             <div>
                                                 <label className="block text-sm font-medium text-foreground mb-2">Project Type</label>
                                                 <select
-                                                    name="project"
+                                                    name="projectType"
                                                     className="w-full px-3 py-2 bg-[#0e0f13] border border-[#22252c] rounded-md text-foreground focus:outline-none focus:ring-0 focus:border-transparent focus:shadow-[0_0_0_2px_#fd4d19,0_0_0_4px_#e01425]"
                                                 >
                                                     <option value="">Select project type</option>
@@ -90,10 +140,9 @@ const Contact = () => {
                                                 <label className="block text-sm font-medium text-foreground mb-2">Phone Number *</label>
                                                 <input
                                                     className="flex h-10 w-full rounded-md  px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-0 focus-visible:border-transparent focus-visible:shadow-[0_0_0_2px_#fd4d19,0_0_0_4px_#e01425] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm bg-[#0e0f13] border border-[#22252c]"
-                                                    name="name"
+                                                    name="phone"
                                                     placeholder="John Doe"
                                                     required
-
                                                 />
                                             </div>
                                         </div>
@@ -102,7 +151,7 @@ const Contact = () => {
                                             <label className="block text-sm font-medium text-foreground mb-2">Project Details *</label>
                                             <textarea
                                                 className="flex min-h-[80px] w-full rounded-md border px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-0 focus-visible:border-transparent focus-visible:shadow-[0_0_0_2px_#fd4d19,0_0_0_4px_#e01425] disabled:cursor-not-allowed disabled:opacity-50 bg-[#0e0f13] border-[#22252c]"
-                                                name="message"
+                                                name="projectDetails"
                                                 placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
                                                 rows="6"
                                                 required

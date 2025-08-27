@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <nav className='w-full bg-background/80 fixed z-50'>
-                <div className='navbar flex justify-between items-center mx-auto w-full bg-[rgba(0,0,0,0.68)] backdrop-blur-md backdrop-saturate-150 shadow px-6 lg:px-40 boreder-b-5'>
+                <div className='navbar flex justify-between items-center mx-auto w-full bg-[rgba(0,0,0,0.41)] backdrop-blur-md backdrop-saturate-150 shadow px-6 lg:px-40 boreder-b-5'>
                     <div className="logo flex items-center">
                         <Image
                             width={60}

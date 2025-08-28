@@ -10,6 +10,23 @@ const Contact = () => {
 
         e.preventDefault();
 
+        toast.custom((t) => (
+            <div
+                className={`${t.visible ? 'animate-enter-right' : 'animate-leave-right'
+                    } flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 bg-[#0e0f13] border border-[#fd4d19] text-white px-4 py-3 rounded-lg shadow-lg w-[90vw] sm:w-auto max-w-sm`}
+            >
+                <CheckCircle size={24} color="#fd4d19" className="flex-shrink-0" />
+                <div className="flex flex-col text-left">
+                    <span className="font-semibold text-sm sm:text-base">
+                        Message sent successfully!
+                    </span>
+                    <span className="text-xs sm:text-sm text-muted">
+                        We&apos;ll get back to you within 24 hours.
+                    </span>
+                </div>
+            </div>
+        ));
+
         try {
             const formData = new FormData(e.target);
             const data = Object.fromEntries(formData.entries());
@@ -22,22 +39,6 @@ const Contact = () => {
 
             if (response.ok) {
                 console.log("Form submitted successfully");
-                toast.custom((t) => (
-                    <div
-                        className={`${t.visible ? 'animate-enter-right' : 'animate-leave-right'
-                            } flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 bg-[#0e0f13] border border-[#fd4d19] text-white px-4 py-3 rounded-lg shadow-lg w-[90vw] sm:w-auto max-w-sm`}
-                    >
-                        <CheckCircle size={24} color="#fd4d19" className="flex-shrink-0" />
-                        <div className="flex flex-col text-left">
-                            <span className="font-semibold text-sm sm:text-base">
-                                Message sent successfully!
-                            </span>
-                            <span className="text-xs sm:text-sm text-muted">
-                                We&apos;ll get back to you within 24 hours.
-                            </span>
-                        </div>
-                    </div>
-                ));
             } else {
                 console.error("Submission failed");
             }

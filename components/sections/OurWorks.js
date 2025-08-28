@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 const OurServices = () => {
   return (
     <>
@@ -177,9 +179,10 @@ const OurServices = () => {
                 something amazing together that showcases your brand&apos;s unique
                 personality.
               </p>
-            <button className="cursor-pointer inline-flex items-center justify-center gap-2 h-11 px-8 text-sm font-medium rounded-md bg-gradient-to-r from-[#fd4d19] to-[#e01425] text-white hover:opacity-90 hover:shadow-glow transition-all duration-300">
+            <Link href="#contact"
+            className="cursor-pointer inline-flex items-center justify-center gap-2 h-11 px-8 text-sm font-medium rounded-md bg-gradient-to-r from-[#fd4d19] to-[#e01425] text-white hover:opacity-90 hover:shadow-glow transition-all duration-300">
                 Start Your Project
-              </button>
+              </Link>
             </div>
           </div>
         </div>

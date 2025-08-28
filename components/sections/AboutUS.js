@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const AboutUs = () => {
     return (
@@ -32,7 +33,7 @@ const AboutUs = () => {
                             </div>
 
                             <div className="pt-6">
-                                <button
+                                <Link href="#contact"
                                     className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-11 px-8 rounded-md 
          bg-gradient-to-r from-[#fd4d19]  to-[#e01425] text-white 
          hover:opacity-90 hover:shadow-glow transition-all duration-300 
@@ -52,8 +53,7 @@ const AboutUs = () => {
                                         <path d="M5 12h14" />
                                         <path d="m12 5 7 7-7 7" />
                                     </svg>
-
-                                </button>
+                                </Link>
                             </div>
                         </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Services = () => {
     return (
@@ -233,7 +234,7 @@ const Services = () => {
                             Let&apos;s discuss your project and create something amazing together. Get a free consultation and project estimate.
                         </p>
 
-                        <button
+                        <Link href="#contact"
                             className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-backgroundfocus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-primary/90 h-11 rounded-md px-8 bg-[linear-gradient(135deg,hsl(15,100%,55%)_0%,hsl(5,85%,50%)_50%,hsl(350,90%,45%)_100%)] text-white transition-all duration-300 group cursor-pointer hover:shadow-[0_0_30px_hsl(15_100%_55%_/_0.3)]"
                         >
                             Get Free Consultation
@@ -252,7 +253,7 @@ const Services = () => {
                                 <path d="M5 12h14"></path>
                                 <path d="m12 5 7 7-7 7"></path>
                             </svg>
-                        </button>
+                        </Link>
                     </div>
 
 

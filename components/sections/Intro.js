@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Intro() {
   return (
@@ -14,7 +15,7 @@ export default function Intro() {
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed py-6 text-center">Powerful websites that ignite your brand and drive results. We blend cutting-edge technology with bold design to create digital experiences that truly stand out.</p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center py-6">
 
-            <button
+            <Link href="#contact"
               className="inline-flex items-center justify-center gap-2 px-4 py-2 text-lg font-medium 
              rounded-[10px] bg-[linear-gradient(135deg,hsl(15,100%,55%)_0%,hsl(5,85%,50%)_50%,hsl(350,90%,45%)_100%)] text-white 
              hover:shadow-[0_0_30px_hsl(15_100%_55%_/_0.3)] transition duration-300 group cursor-pointer"
@@ -33,9 +34,10 @@ export default function Intro() {
                 <path d="M5 12h14" />
                 <path d="m12 5 7 7-7 7" />
               </svg>
-            </button>
+            </Link>
 
-            <button className="inline-flex items-center justify-center gap-1 px-4 py-2 rounded-[10px] bg-transparent text-white text-lg font-semibold hover:bg-white transition duration-300 group cursor-pointer border-1 border-white hover:text-black active:bg-white active:text-black">
+            <Link href="#services"
+            className="inline-flex items-center justify-center gap-1 px-4 py-2 rounded-[10px] bg-transparent text-white text-lg font-semibold hover:bg-white transition duration-300 group cursor-pointer border-1 border-white hover:text-black active:bg-white active:text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -50,7 +52,7 @@ export default function Intro() {
                 <polyline points="8 6 2 12 8 18" />
               </svg>
               View Our Services
-            </button>
+            </Link>
 
           </div>
 

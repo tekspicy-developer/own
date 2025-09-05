@@ -16,9 +16,7 @@ const OurServices = () => {
               <span className="text-foreground"> We&apos;ve Cooked Up</span>
             </h2>
             <p className="text-xl text-[#abb1ba] max-w-3xl mx-auto">
-              Take a look at some of our recent projects where we&apos;ve helped
-              businesses transform their digital presence with cutting-edge web
-              solutions.
+              Check out some of our recent projects — businesses we&rsquo;ve helped shine online with smart design and cutting-edge tech.
             </p>
           </div>
 
@@ -172,12 +170,10 @@ const OurServices = () => {
           <div className="text-center mt-16">
             <div className="bg-gradient-card rounded-2xl p-8 border border-[#22252c]">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Want to see your project here?
+                Want your brand in the spotlight?
               </h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                We&apos;d love to help bring your vision to life. Let&apos;s create
-                something amazing together that showcases your brand&apos;s unique
-                personality.
+                Let&rsquo;s bring your vision to life and create something that truly reflects your personality.
               </p>
             <Link href="#contact"
             className="cursor-pointer inline-flex items-center justify-center gap-2 h-11 px-8 text-sm font-medium rounded-md bg-gradient-to-r from-[#fd4d19] to-[#e01425] text-white hover:opacity-90 hover:shadow-glow transition-all duration-300">

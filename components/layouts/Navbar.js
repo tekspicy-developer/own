@@ -42,7 +42,7 @@ const Navbar = () => {
                     <div className="menu hidden md:flex items-center gap-16">
                         <ul className="flex gap-16 text-sm font-bold text-[#abb1ba]">
                             <li><Link href="#home" className="hover:text-white cursor-pointer">Home</Link></li>
-                            <li><Link href="#about" className="hover:text-white cursor-pointer">About</Link></li>
+                            <li><Link href='/aboutUs' className="hover:text-white cursor-pointer">About</Link></li>
                             <li><Link href="#services" className="hover:text-white cursor-pointer">Services</Link></li>
                             <li><Link href="#contact" className="hover:text-white cursor-pointer">Contact</Link></li>
                         </ul>
@@ -63,7 +63,7 @@ const Navbar = () => {
                         <div className='flex flex-col justify-between h-full'>
                             <ul className="flex flex-col gap-8 text-lg font-bold text-[#abb1ba] px-8 mt-8">
                                 <li><Link href="#home" className="hover:text-white cursor-pointer" onClick={() => setMenuOpen(false)}>Home</Link></li>
-                                <li><Link href="#about" className="hover:text-white cursor-pointer" onClick={() => setMenuOpen(false)}>About</Link></li>
+                                <li><Link href="/aboutUs" className="hover:text-white cursor-pointer" onClick={() => setMenuOpen(false)}>About</Link></li>
                                 <li><Link href="#services" className="hover:text-white cursor-pointer" onClick={() => setMenuOpen(false)}>Services</Link></li>
                                 <li><Link href="#contact" className="hover:text-white cursor-pointer" onClick={() => setMenuOpen(false)}>Contact</Link></li>
                             </ul>

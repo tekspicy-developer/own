@@ -16,7 +16,7 @@ const AboutUs = () => {
                         </h2>
 
                         <p className="text-xl text-[#abb1ba] max-w-3xl mx-auto">
-                            We&rsquo;re a passionate team of developers, designers, and digital strategists who believe in the power of great web experiences to transform businesses.
+                            We&rsquo;re not just developers and designers—we’re digital creators with a taste for bold ideas. At Tek Spicy, we blend creativity, strategy, and technology to cook up websites that don’t just look amazing, but actually drive results.
                         </p>
                     </div>
 

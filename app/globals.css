@@ -66,3 +66,26 @@ html, body {
 .animate-leave-right {
   animation: slideOutRight 0.3s ease-in forwards;
 }
+
+
+
+
+/* Move swiper pagination below cards */
+.swiper-pagination {
+  position: relative !important; /* don't overlap */
+  margin-top: 1rem !important;   /* push it below cards */
+  text-align: center;
+}
+
+/* Style the bullets */
+.swiper-pagination-bullet {
+  background-color: #ff531a !important; /* orange */
+  opacity: 0.5;
+  margin: 0 6px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff531a !important;
+  opacity: 1;
+}
+
